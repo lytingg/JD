@@ -130,14 +130,16 @@ s, i, em {
         background-color: #f1f1f1;
         line-height: 30px;
     }
-    .site-nav-send {
+    .site-nav-send,
+    .site-nav-r .fore {
         position: relative;
         padding: 0 25px 0 10px;
     }
     .site-nav-send:hover {
         background-color: #fff;
     }
-    .site-nav-send i {
+    .site-nav-send i,
+    .fore i {
         position: absolute;
         top: 12px;
         right: 8px;
@@ -146,11 +148,25 @@ s, i, em {
         overflow: hidden;
 
     }
-    .site-nav-send s {
+    .site-nav-send s,
+    .fore s {
         position: absolute;
         top: -7px;
         font:400 13px/15px "consolas";
 
+    }
+
+    .site-nav li {
+        float: left;
+        padding: 0 10px;
+
+    }
+    .site-nav .line {
+        width: 1px;
+        height: 15px;
+        background-color: #ddd;
+        padding: 0;
+        margin-top: 9px;
     }
 
     /*site-nav部分end*/
