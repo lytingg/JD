@@ -202,3 +202,92 @@ s, i, em {
         background-position: bottom;
     }
     /*top-banner结束*/
+
+    /*search开始*/
+    .search-logo {
+        float: left;
+        width: 362px;
+        height: 60px;
+        padding: 20px 0;
+    }
+    .search-logo a {
+        float: left;
+        height: 60px;
+        width: 270px;
+        text-indent:-5000px;
+        background: url(../images/logo.png) no-repeat;
+    }
+    .search-input {
+        float: left;
+        width: 538px;
+        height: 89px;
+    }
+
+    .input-box {
+        float: left;
+        height: 36px;
+        padding-top: 25px;
+    }
+    .input-box input {
+        float: left;
+        width: 450px;
+        height: 32px;
+        padding-left: 4px;
+        color: #cccccc;
+        border: 2px solid #B61D1D;
+        border-right:0;
+    }
+    .input-box button {
+        float: left;
+        height: 36px;
+        width: 82px;
+        background-color: #B61D1D;
+        color: #fff;
+        font: 400 16px/36px "microsoft yahei";
+        cursor: pointer;
+    }
+    .moreAlink {
+        float: left;
+        width: 530px;
+        height: 28px;
+        line-height: 28px;
+    }
+    .moreAlink a {
+        margin-right: 8px;
+    }
+    .search-car {
+        position: relative;
+        float: right;
+        width: 96px;
+        height: 34px;
+        line-height: 34px;
+        padding-left: 43px;
+        background-color: #F9F9F9;
+        margin: 25px 65px 0 0;
+        border: 1px solid #ddd;
+    }
+    .search-car-gwc {
+        position: absolute;
+        width: 18px;
+        height: 16px;
+        top: 9px;
+        left: 18px;
+        background: url(../images/tel.png) no-repeat 0 -58px;
+    }
+    .search-car-jt {
+        position: absolute;
+        font: 400 13px/34px "simsun";
+        right: 10px;
+    }
+    .search-car-mag {
+        position: absolute;
+        top: -5px;
+        width: 15px;
+        height: 15px;
+        background: #c00;
+        line-height: 14px;
+        text-align: center;
+        color: #fff;
+        border-radius: 7px 7px 7px 0;
+    }
+    /*search结束*/
